@@ -21,6 +21,6 @@ $email_subject = "Обратная связь Таврический ЮЦ:  $nam
 $email_body = "Вы получили сообщение с формы вебсайта.\n\n"."Детали:\n\nИмя: $name\n\nEmail: $email_address\n\nТелефон: $phone\n\nСообщение:\n$message";
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
-print mail($to,$email_subject,$email_body,$headers);
+mail($to,$email_subject,$email_body,$headers);
 return true;
 ?>
