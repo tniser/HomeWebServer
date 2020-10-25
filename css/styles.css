@@ -10602,3 +10602,22 @@ border-radius: 1.3em;
     float: left;
     max-height: 15rem;
 }
+@media (min-width: 375px){
+    .rounded li{
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 760px){
+    .rounded li{
+        font-size: 18px;
+    }
+
+}
+@media (min-width: 1300px){
+    .rounded li{
+        font-size: 22px;
+    }
+
+}
+
